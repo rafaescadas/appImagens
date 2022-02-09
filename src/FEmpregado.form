@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FEmpregado">
+  <grid id="27dc6" binding="panelEmpregado" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="3" y="20" width="517" height="535"/>
+    </constraints>
+    <properties>
+      <background color="-16674927"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="eba07" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Ficha de funcionário"/>
+        </properties>
+      </component>
+      <component id="f3d72" class="javax.swing.JTextField" binding="textFieldID">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="615e0" class="javax.swing.JTextField" binding="textFieldNome">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="974da" class="javax.swing.JTextField" binding="textFieldSalario">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9a0c5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="49" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="ID:"/>
+        </properties>
+      </component>
+      <component id="d9b5b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="49" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Salário:"/>
+        </properties>
+      </component>
+      <component id="59b00" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="49" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Foto:"/>
+        </properties>
+      </component>
+      <component id="4e0b7" class="javax.swing.JLabel" binding="labelImagem">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="250"/>
+            <maximum-size width="250" height="250"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bbf50" class="javax.swing.JButton" binding="guardarButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Guardar"/>
+        </properties>
+      </component>
+      <component id="d8252" class="javax.swing.JButton" binding="procurarButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Procurar"/>
+        </properties>
+      </component>
+      <component id="4d697" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Dados do funcionário:"/>
+        </properties>
+      </component>
+      <component id="2bf1e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="49" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Nome:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
